@@ -1,0 +1,52 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.cards{
+    align-items: center;
+    width: 250px;
+    height: auto;
+    padding: 50px;
+}
+.cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(100, 56, 56, 0.1);
+    background-color: rgb(250, 246, 246);
+}
+.image_box img{
+    width: 200px;
+    height: 180px;
+    align-items: center;
+}
+.details p:nth-child(1){
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.details p:nth-child(2){
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.details p:nth-child(3){
+    align-items: center;
+    font-weight: bold;
+    padding-top: 15px;
+    align-self: left;
+    padding-bottom: 25px;
+    color: rgb(29, 29, 29);
+}
+
+.details button{
+    padding: 8px 15px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(87, 148, 218);
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
